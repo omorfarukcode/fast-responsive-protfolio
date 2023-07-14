@@ -296,7 +296,9 @@ footer {
     font-weight: 700;
     padding-top: 130px;
 }
-
+.footer-left{
+    width: 50%;
+}
 .footer-left p {
     color: #474747;
     font-size: 16px;
@@ -315,12 +317,14 @@ footer {
 .form-titel {
     margin-bottom: 20px;
 }
-
+form{
+    width: 50%;
+}
 form .fill-up {
     display: block;
     padding: 18px 18px 18px 18px;
     font-size: 18px;
-    width: 350px;
+    width: 100%;
     height: 10px;
     margin: 20px 0px;
     border: none;
@@ -328,9 +332,9 @@ form .fill-up {
 
 .text-box {
     height: 150px;
-    width: 85%;
+    width: 100%;
     border: none;
-    padding: 30px;
+    padding: 20px;
 }
 
 .button {
@@ -362,7 +366,16 @@ form .fill-up {
     }
     nav {
         flex-direction: column;
-        margin: 10px ;
+        margin: 0px ;
+    }
+    nav h2{
+        margin-left: -20px;
+    }
+    nav ul{
+        margin-top: 10px;
+    }
+    nav ul li a{
+        font-weight: 700;
     }
     .small-device{
         display: none;
@@ -410,15 +423,25 @@ form .fill-up {
     }
     .footer-container{
         flex-direction: column-reverse;
+        width: 80%;
+        
     }
     .footer-left{
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
     form{
-        width: 80%;
-        margin: auto;
+        width: 100%;
+        
     }
+    form .fill-up{
+        width: 90%;
+    }
+    form .text-box{
+        width: 90%;
+        
+    }
+    
     .button{
         flex-direction: column;
         width: 70%;
