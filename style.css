@@ -415,13 +415,9 @@ form .fill-up {
         width: 80%;
         margin: auto;
     }
-    form .fill-up{
+    form{
         width: 80%;
         margin: auto;
-    }
-    .text-box{
-        width: 70%;
-        margin-left: 7%;
     }
     .button{
         flex-direction: column;
